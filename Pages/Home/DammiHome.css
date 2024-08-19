@@ -1,0 +1,19 @@
+/* src/components/DammiHome.css */
+.react-draggable {
+    cursor: move;
+  }
+  @keyframes moveHorizontally {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .auto-move {
+    display: inline-block;
+    animation: moveHorizontally 10s linear infinite;
+  }
+  
+  

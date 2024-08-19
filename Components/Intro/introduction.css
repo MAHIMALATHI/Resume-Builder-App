@@ -1,0 +1,57 @@
+.cont {
+    /* Set the background color to white */
+    color: rgb(20, 19, 19);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(120vh - 200px); /* Ensure it touches the footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ensure background color is set to white */
+
+
+.templatesList {
+    font-family: "Poppins";
+    color:white;
+    text-align: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure templates are in a single row for carousel */
+    overflow: hidden; /* Hide overflow to enable smooth scrolling */
+    margin-bottom: 20px;
+   
+    
+}
+
+.template {
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 13px;
+    margin: auto;
+    border: 1px solid black;
+    margin: 10px;
+    flex: 0 0 auto; /* Ensure each template is of fixed width for carousel */
+}
+
+.template img {
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.template img:hover {
+    transform: scale(1.05);
+}
+.fullback{
+    background-color:  rgba(10, 147, 165, 0.225);
+}

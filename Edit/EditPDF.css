@@ -1,0 +1,106 @@
+.full {
+    height: 100%;
+    color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-pdf-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: skyblue;
+    margin-top: 4%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .controls-container {
+    flex: 1;
+    max-width: 400px; /* Set max width for controls */
+    margin-right: 40px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .file-input,
+  .text-input,
+  .position-input {
+    display: block;
+    width: calc(70% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .position-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .position-input {
+    width: 100px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    width: 65%;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .pdf-preview-container {
+    flex: 2; /* Allow more space for the PDF preview */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pdf-iframe {
+    width: 70%;
+    height: 600px; /* Increase height for larger view */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  .below {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://i.pinimg.com/originals/d7/64/c7/d764c70776b64e523cb4eea2f322db96.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -20px;
+    height: 500px;
+  }
+  
